@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+    <title type="text">Blog Haver</title>
+    <subtitle type="html">MemE is a powerful and highly customizable GoHugo blog theme.</subtitle>
+    <updated>2019-10-26T22:51:25-04:00</updated>
+    <id>/</id>
+    <link rel="alternate" type="text/html" href="/" />
+    <link rel="self" type="application/atom+xml" href="/atom.xml" />
+    <author>
+            <name>Kasey</name>
+            <uri>/</uri>
+            
+                <email>kmarshall928@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <generator uri="https://gohugo.io/" version="0.59.0">Hugo</generator>
+        <entry>
+            <title type="text">Test Page Markdown</title>
+            <link rel="alternate" type="text/html" href="/posts/test-markdown/" />
+            <id>/posts/test-markdown/</id>
+            <updated>2019-08-22T00:00:00+00:00</updated>
+            <published>2019-08-22T00:00:00+00:00</published>
+            <author>
+                    <name>Ashesh Singh</name>
+                    <uri>https://github.com/user501254</uri>
+                    </author>
+            <rights>[Some rights reserved.](https://github.com/user501254/minimo/blob/master/LICENSE)</rights><summary type="html"><![CDATA[Cheat Sheet and Test Headers 1 2 3 4 5 6 7 8  # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header   H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs 1 2 3 4  This is a paragraph.]]></summary>
+            
+                <content type="html"><![CDATA[
+
+<h1 id="cheat-sheet-and-test">Cheat Sheet and Test</h1>
+
+<h2 id="headers">Headers</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma"># H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+### Duplicate Header
+### Duplicate Header</pre></td></tr></table>
+</div>
+</div>
+<h1 id="h1">H1</h1>
+
+<h2 id="h2">H2</h2>
+
+<h3 id="h3">H3</h3>
+
+<h4 id="h4">H4</h4>
+
+<h5 id="h5">H5</h5>
+
+<h6 id="h6">H6</h6>
+
+<h3 id="duplicate-header">Duplicate Header</h3>
+
+<h3 id="duplicate-header-1">Duplicate Header</h3>
+
+<h2 id="paragraphs">Paragraphs</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">This is a paragraph.
+I am still part of the paragraph.
+
+New paragraph.</pre></td></tr></table>
+</div>
+</div>
+<p>This is a paragraph.
+I am still part of the paragraph.</p>
+
+<p>New paragraph.</p>
+
+<h2 id="inline">Inline</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">`inline block`
+
+&lt;kbd&gt;ctrl&lt;/kbd&gt;+&lt;kbd&gt;alt&lt;/kbd&gt;+&lt;kbd&gt;del&lt;/kbd&gt;
+
+**bold 1** and __bold 2__
+
+*italic 1*  and _italic 2_
+
+~~strike~~
+
+
+***bold 1 and italic 1***
+
+___bold 2 and italic 2___
+
+__*bold 2 and italic 1*__
+
+**_bold 1 and italic 2_**
+
+
+~~*strike italic 1*~~ and *~~strike italic 2~~*
+
+~~_strike italic 2_~~ and  _~~strike italic 2~~_
+
+
+~~**strike bold 1**~~ and **~~strike bold 1~~**
+
+~~__strike bold 2__~~ and __~~strike bold 2~~__
+
+
+~~***strike italic 1 bold 1***~~ and ***~~strike italic 1 bold 1~~***
+
+~~___strike italic 2 bold 2___~~ and ___~~strike italic 2 bold 2~~___
+
+**~~*strike italic 1 bold 1*~~** and *~~**strike italic 1 bold 1**~~*
+
+__~~_strike italic 2 bold 2_~~__ and _~~__strike italic 2 bold 2__~~_
+
+**~~_strike italic 2 bold 1_~~** and _~~**strike italic 2 bold 1**~~_
+
+__~~*strike italic 1 bold 2*~~__ and *~~__strike italic 1 bold 2__~~*</pre></td></tr></table>
+</div>
+</div>
+<p><code>inline block</code></p>
+
+<p><kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>del</kbd></p>
+
+<p><strong>bold 1</strong> and <strong>bold 2</strong></p>
+
+<p><em>italic 1</em>  and <em>italic 2</em></p>
+
+<p><del>strike</del></p>
+
+<p><strong><em>bold 1 and italic 1</em></strong></p>
+
+<p><strong><em>bold 2 and italic 2</em></strong></p>
+
+<p><strong><em>bold 2 and italic 1</em></strong></p>
+
+<p><strong><em>bold 1 and italic 2</em></strong></p>
+
+<p><del><em>strike italic 1</em></del> and <em><del>strike italic 2</del></em></p>
+
+<p><del><em>strike italic 2</em></del> and  <em><del>strike italic 2</del></em></p>
+
+<p><del><strong>strike bold 1</strong></del> and <strong><del>strike bold 1</del></strong></p>
+
+<p><del><strong>strike bold 2</strong></del> and <strong><del>strike bold 2</del></strong></p>
+
+<p><del><strong><em>strike italic 1 bold 1</em></strong></del> and <strong><em><del>strike italic 1 bold 1</del></em></strong></p>
+
+<p><del><strong><em>strike italic 2 bold 2</em></strong></del> and <strong><em><del>strike italic 2 bold 2</del></em></strong></p>
+
+<p><strong><del><em>strike italic 1 bold 1</em></del></strong> and *<del><strong>strike italic 1 bold 1</strong></del>*</p>
+
+<p><strong><del><em>strike italic 2 bold 2</em></del></strong> and _<del><strong>strike italic 2 bold 2</strong></del>_</p>
+
+<p><strong><del><em>strike italic 2 bold 1</em></del></strong> and <em><del><strong>strike italic 2 bold 1</strong></del></em></p>
+
+<p><strong><del><em>strike italic 1 bold 2</em></del></strong> and <em><del><strong>strike italic 1 bold 2</strong></del></em></p>
+
+<h2 id="links">Links</h2>
+
+<p>Footnote, reference sources are provided in separate markdowns files specified in frontmatter.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">[Reference Link][1]
+
+Footnotes[^1] have a label[^label] and a definition[^!DEF]
+
+Web image
+![Web Picture](https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/static/icons/apple-touch-icon.png &#34;Web Picture&#34;)
+
+Local image
+![Local Picture](/icons/apple-touch-icon.png &#34;Local Picture&#34;)
+
+contact@revolunet.com
+
+@revolunet
+
+Issue #1
+
+https://github.com/revolunet/sublimetext-markdown-preview/
+
+This is a link https://github.com/revolunet/sublimetext-markdown-preview/.
+
+This is a link &#34;https://github.com/revolunet/sublimetext-markdown-preview/&#34;.
+
+With this link (https://github.com/revolunet/sublimetext-markdown-preview/), it still works.
+
+    [1]: https://github.com/revolunet/sublimetext-markdown-preview/
+    [^1]: This is a footnote
+    [^label]: A footnote on &#34;label&#34;
+    [^!DEF]: The footnote for definition</pre></td></tr></table>
+</div>
+</div>
+<p>[Reference Link][1]</p>
+
+<p>Footnotes[^1] have a label[^label] and a definition[^!DEF]</p>
+
+<p>Web image
+<img src="https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/static/icons/apple-touch-icon.png" alt="Web Picture" title="Web Picture" /></p>
+
+<p>Local image
+<img src="/icons/apple-touch-icon.png" alt="Local Picture" title="Local Picture" /></p>
+
+<p>www.google.com</p>
+
+<p>contact@revolunet.com</p>
+
+<p>@revolunet</p>
+
+<p>Issue #1</p>
+
+<p><a href="https://github.com/revolunet/sublimetext-markdown-preview/" target="_blank">https://github.com/revolunet/sublimetext-markdown-preview/</a></p>
+
+<p>This is a link <a href="https://github.com/revolunet/sublimetext-markdown-preview/" target="_blank">https://github.com/revolunet/sublimetext-markdown-preview/</a>.</p>
+
+<p>This is a link &quot;<a href="https://github.com/revolunet/sublimetext-markdown-preview/&quot;" target="_blank">https://github.com/revolunet/sublimetext-markdown-preview/&quot;</a>.</p>
+
+<p>With this link (<a href="https://github.com/revolunet/sublimetext-markdown-preview/" target="_blank">https://github.com/revolunet/sublimetext-markdown-preview/</a>), it still works.</p>
+
+<h2 id="abbreviation">Abbreviation</h2>
+
+<p>Abbreviations source are found in a separate markdown file specified in frontmatter.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">The HTML specification 
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium</pre></td></tr></table>
+</div>
+</div>
+<p>The HTML specification
+is maintained by the W3C.</p>
+
+<h2 id="unordered-list">Unordered List</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Unordered List
+
+- item 1
+    * item A
+    * item B
+        more text
+        + item a
+        + item b
+        + item c
+    * item C
+- item 2
+- item 3</pre></td></tr></table>
+</div>
+</div>
+<p>Unordered List</p>
+
+<ul>
+<li>item 1
+
+<ul>
+<li>item A</li>
+<li>item B
+more text
+
+<ul>
+<li>item a</li>
+<li>item b</li>
+<li>item c</li>
+</ul></li>
+<li>item C</li>
+</ul></li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+
+<h2 id="ordered-list">Ordered List</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Ordered List
+
+1. item 1
+    1. item A
+    2. item B
+        more text
+        1. item a
+        2. item b
+        3. item c
+    3. item C
+2. item 2
+3. item 3</pre></td></tr></table>
+</div>
+</div>
+<p>Ordered List</p>
+
+<ol>
+<li>item 1
+
+<ol>
+<li>item A</li>
+<li>item B
+more text
+
+<ol>
+<li>item a</li>
+<li>item b</li>
+<li>item c</li>
+</ol></li>
+<li>item C</li>
+</ol></li>
+<li>item 2</li>
+<li>item 3</li>
+</ol>
+
+<h2 id="task-list">Task List</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Task List
+
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] item 3</pre></td></tr></table>
+</div>
+</div>
+<p>Task List</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item 1
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item A</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item B
+more text
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item a</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item b</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item c</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item C</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item 2</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item 3</label></li>
+</ul>
+
+<h2 id="mixed-lists">Mixed Lists</h2>
+
+<p><code>Really Mixed Lists</code> should break with <code>sane_lists</code> on.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Mixed Lists
+
+- item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        1. item a
+        2. itemb
+        3. item c
+    * [X] item C
+- item 2
+- item 3
+
+
+Really Mixed Lists
+
+- item 1
+    * [X] item A
+    - item B
+        more text
+        1. item a
+        + itemb
+        + [ ] item c
+    3. item C
+2. item 2
+- [X] item 3</pre></td></tr></table>
+</div>
+</div>
+<p>Mixed Lists</p>
+
+<ul class="task-list">
+<li>item 1
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item A</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item B
+more text
+
+<ol>
+<li>item a</li>
+<li>itemb</li>
+<li>item c</li>
+</ol></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item C</label></li>
+</ul></li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+
+<p>Really Mixed Lists</p>
+
+<ul class="task-list">
+<li>item 1
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item A</label></li>
+<li>item B
+more text
+
+<ol class="task-list">
+<li>item a</li>
+<li>itemb</li>
+<li><label><input type="checkbox" disabled class="task-list-item"> item c</label></li>
+</ol></li>
+<li>item C</li>
+</ul></li>
+<li>item 2</li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item 3</label></li>
+</ul>
+
+<h2 id="dictionary">Dictionary</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Dictionary
+:   item 1
+
+    item 2
+
+    item 3</pre></td></tr></table>
+</div>
+</div>
+<dl>
+<dt>Dictionary</dt>
+<dd><p>item 1</p>
+
+<p>item 2</p>
+
+<p>item 3</p></dd>
+</dl>
+
+<h2 id="blocks">Blocks</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">    This is a block.
+    
+    This is more of a block.</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">This is a block.
+
+This is more of a block.</pre></td></tr></table>
+</div>
+</div>
+<h2 id="block-quotes">Block Quotes</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&gt; This is a block quote
+&gt;&gt; How does it look?</pre></td></tr></table>
+</div>
+</div>
+<blockquote>
+<p>This is a block quote.
+&gt; How does it look?
+I think it looks good.</p>
+</blockquote>
+
+<h2 id="fenced-block">Fenced Block</h2>
+
+<p>Assuming guessing is not enabled.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">```
+// Fenced **without** highlighting
+function doIt() {
+    for (var i = 1; i &lt;= slen ; i^^) {
+        setTimeout(&#34;document.z.textdisplay.value = newMake()&#34;, i*300);
+        setTimeout(&#34;window.status = newMake()&#34;, i*300);
+    }
+}
+```
+
+```javascript
+// Fenced **with** highlighting
+function doIt() {
+    for (var i = 1; i &lt;= slen ; i^^) {
+        setTimeout(&#34;document.z.textdisplay.value = newMake()&#34;, i*300);
+        setTimeout(&#34;window.status = newMake()&#34;, i*300);
+    }
+}
+```</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">// Fenced **without** highlighting
+function doIt() {
+    for (var i = 1; i &lt;= slen ; i^^) {
+        setTimeout(&#34;document.z.textdisplay.value = newMake()&#34;, i*300);
+        setTimeout(&#34;window.status = newMake()&#34;, i*300);
+    }
+}</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Fenced **with** highlighting
+</span><span class="c1"></span><span class="kd">function</span> <span class="nx">doIt</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">slen</span> <span class="p">;</span> <span class="nx">i</span><span class="o">^^</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">setTimeout</span><span class="p">(</span><span class="s2">&#34;document.z.textdisplay.value = newMake()&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="o">*</span><span class="mi">300</span><span class="p">);</span>
+        <span class="nx">setTimeout</span><span class="p">(</span><span class="s2">&#34;window.status = newMake()&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="o">*</span><span class="mi">300</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="tables">Tables</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">| _Colors_      | Fruits          | Vegetable         |
+| ------------- |:---------------:| -----------------:|
+| Red           | *Apple*         | [Pepper](#Tables) |
+| ~~Orange~~    | Oranges         | **Carrot**        |
+| Green         | ~~***Pears***~~ | Spinach           |</pre></td></tr></table>
+</div>
+</div>
+<table>
+<thead>
+<tr>
+<th><em>Colors</em></th>
+<th align="center">Fruits</th>
+<th align="right">Vegetable</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Red</td>
+<td align="center"><em>Apple</em></td>
+<td align="right">Pepper</td>
+</tr>
+
+<tr>
+<td><del>Orange</del></td>
+<td align="center">Oranges</td>
+<td align="right"><strong>Carrot</strong></td>
+</tr>
+
+<tr>
+<td>Green</td>
+<td align="center"><del><strong><em>Pears</em></strong></del></td>
+<td align="right">Spinach</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="smart-strong">Smart Strong</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Text with double__underscore__words.
+
+__Strong__ still works.
+
+__this__works__too__</pre></td></tr></table>
+</div>
+</div>
+<p>Text with double<strong>underscore</strong>words.</p>
+
+<p><strong>Strong</strong> still works.</p>
+
+<p><strong>this</strong>works<strong>too</strong></p>
+
+<h2 id="smarty">Smarty</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&#34;double quotes&#34;
+
+&#39;single quotes&#39;
+
+da--sh
+
+elipsis...</pre></td></tr></table>
+</div>
+</div>
+<p>&quot;double quotes&quot;</p>
+
+<p>'single quotes'</p>
+
+<p>da--sh</p>
+
+<p>elipsis...</p>
+
+<h2 id="attribute-list">Attribute List</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Normal Text
+
+Modified Text
+{: style=&#34;font-weight:bold;&#34; }</pre></td></tr></table>
+</div>
+</div>
+<p>Normal Text</p>
+
+<p>Modified Text
+{: style=&quot;font-weight:bold;&quot; }</p>
+
+<h2 id="admonition">Admonition</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">!!! Attention &#34;Success!&#34;
+    You can use inline ~~stuff~~ markup too!
+
+!!! Hint &#34;Info!&#34;
+    - Here is some info.
+    - And some more
+
+!!! Caution &#34;Warning!&#34;
+    - [X] Make sure you turn off the stove
+    - [X] Don&#39;t run with scissors
+
+!!! Danger &#34;Alert!&#34;
+    You really need to read [this](#admonition)!
+
+!!! Question &#34;Question?&#34;
+    Are you serious?
+
+!!! Note &#34;Note&#34;
+    😄
+
+    &gt; Not all markup can be placed in these boxes, but you can fit all sorts of things in them. But you will notice that the styles don&#39;t always play nice with each other.  Additional CSS could fix this though.
+
+    Stuff like _this_ works too.
+
+    | _Colors_      | Fruits          | Vegetable    |
+    | ------------- |:---------------:| ------------:|
+    | Red           | *Apple*         | Pepper       |
+    | ~~Orange~~    | Oranges         | **Carrot**   |
+    | Green         | ~~***Pears***~~ | Spinach      |
+
+!!! Unknown &#34;Title&#34;
+    Default class style</pre></td></tr></table>
+</div>
+</div>
+<p>!!! Attention &quot;Success!&quot;
+    You can use inline <del>stuff</del> markup too!</p>
+
+<p>!!! Hint &quot;Info!&quot;
+    - Here is some info.
+    - And some more</p>
+
+<p>!!! Caution &quot;Warning!&quot;
+    - [X] Make sure you turn off the stove
+    - [X] Don't run with scissors</p>
+
+<p>!!! Danger &quot;Alert!&quot;
+    You really need to read <a href="#admonition">this</a>!</p>
+
+<p>!!! Question &quot;Question?&quot;
+    Are you serious?</p>
+
+<p>!!! Note &quot;Note&quot;
+    😄</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&gt; Not all markup can be placed in these boxes, but you can fit all sorts of things in them. But you will notice that the styles don&#39;t always play nice with each other.  Additional CSS could fix this though.
+
+Stuff like _this_ works too.
+
+| _Colors_      | Fruits          | Vegetable    |
+| ------------- |:---------------:| ------------:|
+| Red           | *Apple*         | Pepper       |
+| ~~Orange~~    | Oranges         | **Carrot**   |
+| Green         | ~~***Pears***~~ | Spinach      |</pre></td></tr></table>
+</div>
+</div>
+<p>!!! Unknown &quot;Title&quot;
+    Default class style</p>
+
+<h2 id="github-emoji">Github Emoji</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">This is a test for emoji 😄.  The emojis are images linked to github assets :octocat:.</pre></td></tr></table>
+</div>
+</div>
+<p>This is a test for emoji 😄.  The emojis are images linked to github assets :octocat:.</p>
+
+<h3 id="people">People</h3>
+
+<p>👍👎👽👼💢😠😧😲👶💙😊💥🙇:bowtie:👦👰💔👤👥👏😰💥😖😕👷👮👫💑💏😢😿💘💃👯💨😞😥💫😵💧👂❗😑👀👊👪😨:feelsgood:🐾:finnadie:🔥✊😳😦🖕👧:goberserk::godmode:💚❕❔😬😄😀💂💇✋💩🙉❤😍😻💓💗:hurtrealbad:😯👿💁😇👺👹😂😹💏😗😽😚😘😙😆👄💌👨👲👳😷💆🤘💪🎵💅:neckbeard:😐🙅😶👃🎶👌🙆👴👵👐😮😔😣🙍👱🙎👇👈👉☝👆💩😾🙏👸👊💜❓😡:rage1::rage2::rage3::rage4:✋🙌🙋☺😌💞🏃🏃😆😱🙀🙈💩💀😴😪😄😸😃😺😈😏😼😭✨💖🙊💬⭐🌟😛😝😜🕶:suspect:😓💦😅💭👎👍😫👅😤:trollface:💕👬👭😒✌🚶👋😩😉👩😟💛😋💤</p>
+
+<h3 id="nature">Nature</h3>
+
+<p>🐜🐤🐻🐝🐞🐦🌼🐡🐗💐🐛🌵🐪🐈🐈🌸🌰🐔☁🐄🐄🌙🐊🌀🌳🐕🐕🐬🐉🐲🐪🌾🌍🌎🌏🐘🌲🍂🌓🌛🐟🌁🍀🐸🌕🌝🌐🐐🐹🐥🐣🌿🌺🐝🐎🐨🌗🌜🍃🐆🍁🌌🐒🐵🌔🐁🐁🍄🌑🌚🌃🌊:octocat:🐙🐂🌴🐼⛅🐾🐧🐖🐖🐽🐩🐇🐇🐎🐏🐀🐓🌹🌱🐑🐚🐌🐍❄☃:squirrel:🌞🌻☀🐅🐅🐠🌷🐢☂🌋🌘🌖🐃🌒🌔🐋🐋🐺⚡</p>
+
+<h3 id="objects">Objects</h3>
+
+<p>🎱⏰🍎🎨👟🍼🎈🎍🍌📊⚾🏀🛀🛁🔋🍺🍻🔔🍱🚴👙🎂🃏✒📘💣📖🔖📑📚👢🎳🍞💼💡🍰📅📲📷🍬📇💿📉📈🍒🍫🎄🎬📋📕🔐🌂♣🍸☕💻🎊🍪🌽💳👑🔮🍛🍮🍡🎯📅♦💵🎎🚪🍩👗📀📧🥚🍆🔌✉️✉📩💶👓📠📁🎆🍥🎣🎏🔦🐬💾🎴🏈👣🍴🍤🍟🎲💎👻🎁💝⛳🍇🍏📗🎸🔫🍔🔨👜🎧♥🔆👠🔪🍯🏇⌛⏳🍨🍦📥📨📱🎃👖🔑👘🏮📒🍋💄🔒🔏🍭➿🔊📢🔅🔍🔎🀄📫📪📬📭👞🍖📣🍈📝🎤🔬💽💸💰🎓🚵🎥🎹🎼🔇📛👔📰🔕📓📔🔩🍢📖📂📙📤📦📄📃📟📎🍑🍐✏✏☎️💊🍍🍕📯📮👝🍗💷👛📌📻🍜🎀🍚🍙🍘🎑💍🏉🎽🍶👡🎅🛰🎷🎒✂📜💺🍧👕👞🚿🎿🚬🏂⚽🔉👾♠🍝❇🎇🔈🍲📏🍓🏄🍣🍠🏊💉🎉🎋🍊🍵☎📞🔭🎾🚽🍅🎩📐🏆🍹🎺👕📺🔓📼📹🎮🎻⌚🍉🎐🍷👚👒🔧💴</p>
+
+<h3 id="places">Places</h3>
+
+<p>🚡✈🚑⚓🚛🏧🏦💈🔰🚲🚙⛵️🌉🚅🚄🚌🚏🚗🎠🏁⛪🎪🌇🌇🇨🇳🚧🏪🎌🇩🇪🏬🇪🇸🏰🏤🏭🎡🚒⛲🇫🇷⛽🇬🇧🚁🏥🏨♨🏠🏡🇮🇹🏮🗾🏯🇯🇵🇰🇷🚈🏩🚐🚝🗻🚠🚞🗿🏢🚘🚍🚔🚖🎭🚓🏤🚃🌈🚗🚀🎢🚨📍🚣🇷🇺⛵🏫🚢🎰🚤🌠🚉🗽🚂🌅🌄🚟🚕⛺🎫🗼🚜🚥🚆🚆🚊🚩🚎🚚🇬🇧🇺🇸🚦⚠💒</p>
+
+<h3 id="symbols">Symbols</h3>
+
+<p>💯🔢🅰🆎🔤🔡🉑♒♈◀⏬⏫⬇🔽▶⤵⤴⬅↙↘➡↪⬆↕🔼↖↗🔃🔄🅱🚼🔙🛄☑‼⚫⬛◾◼▪🔲♋🔠♑💹🚸🎦🆑🕐🕙🕥🕚🕦🕛🕧🕜🕑🕝🕒🕞🕓🕟🕔🕠🕕🕡🕖🕢🕗🕣🕘🕤㊗🆒©➰💱🛃💠🚯8️⃣✴✳🔚⏩5️⃣4️⃣🆓♊#️⃣💟✔➗💲❗️➖✖➕🆔🉐ℹ⁉🔟🈁🔵🔷🔶🛅↔↩♌♎🔗ⓜ🚹🚇📴❎🆕🆖9️⃣🚳⛔🚫📵🚷🚭🚱⭕🅾🆗🔛1️⃣⛎🅿〽🛂♓🚰🚮🔘♻🔴®🔁🔂🚻⏪🈂♐♏㊙7️⃣:shipit:📶6️⃣🔯🔹🔸🔺🔻🔜🆘🔣♉3️⃣™🔝🔱🔀2️⃣🈹🈴🈺🈯🈷🈶🈵🈚🈸🈲🈳🔞🆙📳♍🆚〰🚾♿✅⚪💮⬜◽◻▫🔳🚺❌0️⃣</p>
+
+<h2 id="insert">Insert</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">^^insert^^
+
+^^*insert italic*^^  *^^insert italic 2^^*
+
+^^_insert italic_^^  _^^insert italic 2^^_
+
+^^**insert bold**^^  **^^insert bold 2^^**
+
+^^__insert bold__^^  __^^insert bold 2^^__
+
+^^***insert italic bold***^^  ***^^insert italic bold 2^^***
+
+^^___insert italic bold___^^  ___^^insert italic bold 2^^___
+
+**^^*insert italic bold*^^**  *^^**insert italic bold 2**^^*
+
+__^^_insert italic bold_^^__  _^^__insert italic bold 2__^^_
+
+**^^_insert italic bold_^^**  _^^**insert italic bold 2**^^_
+
+__^^*insert italic bold*^^__  *^^__insert italic bold 2__^^*</pre></td></tr></table>
+</div>
+</div>
+<p>^^insert^^</p>
+
+<p>^^<em>insert italic</em>^^  <em>^^insert italic 2^^</em></p>
+
+<p>^^<em>insert italic</em>^^  <em>^^insert italic 2^^</em></p>
+
+<p>^^<strong>insert bold</strong>^^  <strong>^^insert bold 2^^</strong></p>
+
+<p>^^<strong>insert bold</strong>^^  <strong>^^insert bold 2^^</strong></p>
+
+<p>^^<strong><em>insert italic bold</em></strong>^^  <strong><em>^^insert italic bold 2^^</em></strong></p>
+
+<p>^^<strong><em>insert italic bold</em></strong>^^  <strong><em>^^insert italic bold 2^^</em></strong></p>
+
+<p><strong>^^<em>insert italic bold</em>^^</strong>  *^^<strong>insert italic bold 2</strong>^^*</p>
+
+<p><strong>^^<em>insert italic bold</em>^^</strong>  _^^<strong>insert italic bold 2</strong>^^_</p>
+
+<p><strong>^^<em>insert italic bold</em>^^</strong>  <em>^^<strong>insert italic bold 2</strong>^^</em></p>
+
+<p><strong>^^<em>insert italic bold</em>^^</strong>  <em>^^<strong>insert italic bold 2</strong>^^</em></p>
+
+<h2 id="progress">Progress</h2>
+
+<p>Progress bars are block elements and it is recommened to put a newline before and after.  But they will be recognized inline, but they will be on their own line.</p>
+
+<p>Normally you would just globally set your additional classes: <code>progressbar(add_classes=candystripe-animate)</code>, but here we will demonstrate that it works with the <code>attr_list</code> extension.  It will take inline style.</p>
+
+<p>To turn off level classes (which are used to decide special colors for certain percentages) you could just use <code>progressbar(level_class=False)</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">| Test               | Result                                        |
+|--------------------|-----------------------------------------------|
+|Animated: 0%        |[=0% &#34;0%&#34;]{: .candystripe-animate}             |
+|Animated: 5%        |[=5% &#34;5%&#34;]{: .candystripe-animate}             |
+|Animated: 25%       |[=25% &#34;25%&#34;]{: .candystripe-animate}           |
+|Animated: 45%       |[=45% &#34;45%&#34;]{: .candystripe-animate}           |
+|Animated: 65%       |[=65% &#34;65%&#34;]{: .candystripe-animate}           |
+|Animated: 85%       |[=85% &#34;85%&#34;]{: .candystripe-animate}           |
+|Animated: 100%      |[=100% &#34;100%&#34;]{: .candystripe-animate}         |
+|Division Percentage |[= 212.2/537 &#34;212.2/537 Testing division&#34;]     |
+|No Label            |[= 50%]                                        |
+|Inline              |Before[= 50% &#34;I&#39;m a block!&#34;]After              |
+|Gloss and Animated  |[= 50% &#34;Gloss&#34;]{: .candystripe-animate .gloss} |</pre></td></tr></table>
+</div>
+</div>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Animated: 0%</td>
+<td>[=0% &quot;0%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 5%</td>
+<td>[=5% &quot;5%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 25%</td>
+<td>[=25% &quot;25%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 45%</td>
+<td>[=45% &quot;45%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 65%</td>
+<td>[=65% &quot;65%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 85%</td>
+<td>[=85% &quot;85%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Animated: 100%</td>
+<td>[=100% &quot;100%&quot;]{: .candystripe-animate}</td>
+</tr>
+
+<tr>
+<td>Division Percentage</td>
+<td>[= 212.2/537 &quot;212.2/537 Testing division&quot;]</td>
+</tr>
+
+<tr>
+<td>No Label</td>
+<td>[= 50%]</td>
+</tr>
+
+<tr>
+<td>Inline</td>
+<td>Before[= 50% &quot;I'm a block!&quot;]After</td>
+</tr>
+
+<tr>
+<td>Gloss and Animated</td>
+<td>[= 50% &quot;Gloss&quot;]{: .candystripe-animate .gloss}</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="neseted-fences">Neseted Fences</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">    ```
+    This will still be parsed
+    as a normal indented code block.
+    ```
+
+```
+This will still be parsed
+as a fenced code block.
+```
+
+- This is a list that contains multiple code blocks.
+
+    - Here is an indented block
+
+            ```
+            This will still be parsed
+            as a normal indented code block.
+            ```
+
+    - Here is a fenced code block:
+
+        ```
+        This will still be parsed
+        as a fenced code block.
+        ```
+
+        &gt; ```
+        &gt; Blockquotes?
+        &gt; Not a problem!
+        &gt; ```</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">```
+This will still be parsed
+as a normal indented code block.
+```</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">This will still be parsed
+as a fenced code block.</pre></td></tr></table>
+</div>
+</div>
+<ul>
+<li><p>This is a list that contains multiple code blocks.</p>
+
+<ul>
+<li><p>Here is an indented block</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">```
+This will still be parsed
+as a normal indented code block.
+```</pre></td></tr></table>
+</div>
+</div></li>
+
+<li><p>Here is a fenced code block:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">This will still be parsed
+as a fenced code block.</pre></td></tr></table>
+</div>
+</div>
+<blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">Blockquotes?
+Not a problem!</pre></td></tr></table>
+</div>
+</div></blockquote></li>
+</ul></li>
+</ul>
+
+<h2 id="uml-flow-charts">UML Flow Charts</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">```flow
+st=&gt;start: Start:&gt;https://www.google.com[blank]
+e=&gt;end:&gt;https://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;https://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+```</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-flow" data-lang="flow"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-flow" data-lang="flow">st=&gt;start: Start:&gt;https://www.google.com[blank]
+e=&gt;end:&gt;https://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;https://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="uml-sequence-diagrams">UML Sequence Diagrams</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">```sequence
+Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow
+```</pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-sequence" data-lang="sequence"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-sequence" data-lang="sequence">Title: Here is a title
+A-&gt;B: Normal line
+B--&gt;C: Dashed line
+C-&gt;&gt;D: Open arrow
+D--&gt;&gt;A: Dashed open arrow</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="math">Math</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \\(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\\).
+
+$$
+E(\mathbf{v}, \mathbf{h}) = -\sum\_{i,j}w\_{ij}v\_i h\_j - \sum\_i b\_i v\_i - \sum\_j c\_j h\_j
+$$
+
+\\[3 &lt; 4\\]
+
+$$
+\begin{aligned}
+    p(v\_i=1|\mathbf{h}) &amp; = \sigma\left(\sum\_j w\_{ij}h\_j + b\_i\right) \\\\
+    p(h\_j=1|\mathbf{v}) &amp; = \sigma\left(\sum\_i w\_{ij}v\_i + c\_j\right)
+\end{aligned}
+$$
+
+Powered by [${\KaTeX}$](https://katex.org/).</pre></td></tr></table>
+</div>
+</div>
+<p>$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).</p>
+
+<p>$$
+E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
+$$</p>
+
+<p>\[3 &lt; 4\]</p>
+
+<p>$$
+\begin{aligned}
+    p(v_i=1|\mathbf{h}) &amp; = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\
+    p(h_j=1|\mathbf{v}) &amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{aligned}
+$$</p>
+
+<p>Powered by <a href="https://katex.org/" target="_blank">${\KaTeX}$</a>.</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
+                            
+                        
+                            
+                                <category scheme="/categories/syntax/" term="syntax" label="syntax" />
+                            
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
+                            
+                        
+                            
+                                <category scheme="/tags/katex/" term="katex" label="katex" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Markdown Syntax Guide</title>
+            <link rel="alternate" type="text/html" href="/posts/markdown-syntax/" />
+            <id>/posts/markdown-syntax/</id>
+            <updated>2019-03-11T00:00:00+00:00</updated>
+            <published>2019-03-11T00:00:00+00:00</published>
+            <author>
+                    <name>Hugo Authors</name>
+                    <uri>https://gohugo.io/</uri>
+                    </author>
+            <rights>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</rights><summary type="html"><![CDATA[Sample article showcasing basic Markdown syntax and formatting for HTML elements.]]></summary>
+            
+                <content type="html"><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+
+<h2 id="headings">Headings</h2>
+
+<p>The following HTML <code>&lt;h2&gt;</code>—<code>&lt;h6&gt;</code> elements represent five levels of section headings. <code>&lt;h2&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+
+<h2 id="h2">H2</h2>
+
+<h3 id="h3">H3</h3>
+
+<h4 id="h4">H4</h4>
+
+<h5 id="h5">H5</h5>
+
+<h6 id="h6">H6</h6>
+
+<h2 id="paragraph">Paragraph</h2>
+
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+
+<blockquote>
+<p>Don't communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike</cite><sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+</blockquote>
+
+<h2 id="tables">Tables</h2>
+
+<p>Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+
+<table>
+<thead>
+<tr>
+<th>Inline&nbsp;&nbsp;&nbsp;</th>
+<th>Markdown&nbsp;&nbsp;&nbsp;</th>
+<th>In&nbsp;&nbsp;&nbsp;</th>
+<th>Table</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><del>strikethrough</del>&nbsp;&nbsp;&nbsp;</td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></td></tr></table>
+</div>
+</div>
+<h4 id="code-block-with-hugo-s-internal-highlight-shortcode">Code block with Hugo's internal highlight shortcode</h4>
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+
+<h2 id="list-types">List Types</h2>
+
+<h4 id="ordered-list">Ordered List</h4>
+
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+
+<h4 id="unordered-list">Unordered List</h4>
+
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+
+<h4 id="nested-list">Nested list</h4>
+
+<ul>
+<li>Item</li>
+<li>First Sub-item</li>
+<li>Second Sub-item</li>
+</ul>
+
+<h2 id="other-elements-abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+
+<p>H<sub>2</sub>O</p>
+
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">The above quote is excerpted from Rob Pike's <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank">talk</a> during Gopherfest, November 18, 2015.
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
+</ol>
+</div>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
+                            
+                        
+                            
+                                <category scheme="/categories/syntax/" term="syntax" label="syntax" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/series/themes-guide/" term="themes guide" label="themes guide" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/markdown/" term="markdown" label="markdown" />
+                            
+                        
+                            
+                                <category scheme="/tags/css/" term="css" label="css" />
+                            
+                        
+                            
+                                <category scheme="/tags/html/" term="html" label="html" />
+                            
+                        
+                            
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Placeholder Text</title>
+            <link rel="alternate" type="text/html" href="/posts/placeholder-text/" />
+            <id>/posts/placeholder-text/</id>
+            <updated>2019-03-09T00:00:00+00:00</updated>
+            <published>2019-03-09T00:00:00+00:00</published>
+            <author>
+                    <name>Hugo Authors</name>
+                    <uri>https://gohugo.io/</uri>
+                    </author>
+            <rights>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</rights><summary type="html"><![CDATA[Lorem Ipsum Dolor Si Amet]]></summary>
+            
+                <content type="html"><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de
+pectora summo.</p>
+
+<p>Redit teque digerit hominumque toris verebor lumina non cervice
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
+caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
+lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
+
+<ol>
+<li>Exierant elisi ambit vivere dedere</li>
+<li>Duce pollice</li>
+<li>Eris modo</li>
+<li>Spargitque ferrea quos palude</li>
+</ol>
+
+<p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus
+silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria
+tractus malis.</p>
+
+<ol>
+<li>Comas hunc haec pietate fetum procerum dixit</li>
+<li>Post torum vates letum Tiresia</li>
+<li>Flumen querellas</li>
+<li>Arcanaque montibus omnes</li>
+<li>Quidem et</li>
+</ol>
+
+<h1 id="vagus-elidunt">Vagus elidunt</h1>
+
+<p><svg style="max-width:100%" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon" target="_blank">The Van de Graaf Canon</a></p>
+
+<h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat</h2>
+
+<p>Victa caducifer, malo vulnere contra
+dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere
+furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. <strong>Faces illo pepulere</strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.</p>
+
+<p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli
+Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare
+Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert
+ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae
+vulnus haerentia iuste et exercebat, sui et.</p>
+
+<p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel <strong>mitis temploque</strong> vocatus, inque alis, <em>oculos nomen</em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem
+Propoetides <strong>parte</strong>.</p>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/markdown/" term="markdown" label="markdown" />
+                            
+                        
+                            
+                                <category scheme="/tags/text/" term="text" label="text" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Math Typesetting</title>
+            <link rel="alternate" type="text/html" href="/posts/math-typesetting/" />
+            <id>/posts/math-typesetting/</id>
+            <updated>2019-03-08T00:00:00+00:00</updated>
+            <published>2019-03-08T00:00:00+00:00</published>
+            <author>
+                    <name>Hugo Authors</name>
+                    <uri>https://gohugo.io/</uri>
+                    </author>
+            <rights>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</rights><summary type="html"><![CDATA[A brief guide to setup KaTeX]]></summary>
+            
+                <content type="html"><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+
+<p>In this example we will be using <a href="https://katex.org/" target="_blank">${\KaTeX}$</a></p>
+
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html" target="_blank">Auto-render Extension</a> or host these scripts locally.</li>
+
+<li><p>Include the partial in your templates like so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="cp">{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="na">.Params.math</span><span class="w"> </span><span class="na">.Site.Params.math</span><span class="w"> </span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;math.html&#34;</span><span class="w"> </span><span class="na">.</span><span class="w"> </span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span></code></pre></td></tr></table>
+</div>
+</div></li>
+
+<li><p>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project's configuration</p></li>
+
+<li><p>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</p></li>
+</ul>
+
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html" target="_blank">Supported TeX Functions</a></p>
+
+<h2 id="examples">Examples</h2>
+
+<p>Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $</p>
+
+<p>Block math:</p>
+
+<p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                                <category scheme="/categories/math/" term="math" label="math" />
+                            
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
+                            
+                        
+                            
+                                <category scheme="/tags/katex/" term="katex" label="katex" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Emoji Support</title>
+            <link rel="alternate" type="text/html" href="/posts/emoji-support/" />
+            <id>/posts/emoji-support/</id>
+            <updated>2019-03-05T00:00:00+00:00</updated>
+            <published>2019-03-05T00:00:00+00:00</published>
+            <author>
+                    <name>Hugo Authors</name>
+                    <uri>https://gohugo.io/</uri>
+                    </author>
+            <rights>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</rights><summary type="html"><![CDATA[Guide to emoji usage in Hugo]]></summary>
+            
+                <content type="html"><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+
+<p>The <a href="https://gohugo.io/functions/emojify/" target="_blank"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank">Inline Shortcodes</a>.</p>
+
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/" target="_blank">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+
+<p>🙈 <code>\:see_no_evil\:</code><br />
+🙉 <code>\:hear_no_evil\:</code><br />
+🙊 <code>\:speak_no_evil\:</code></p>
+
+<p>The <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+
+<hr />
+
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-css" data-lang="css"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">emoji</span> <span class="p">{</span>
+	<span class="k">font-family</span><span class="p">:</span> <span class="n">Apple</span> <span class="n">Color</span> <span class="n">Emoji</span><span class="p">,</span> <span class="n">Segoe</span> <span class="n">UI</span> <span class="n">Emoji</span><span class="p">,</span> <span class="n">NotoColorEmoji</span><span class="p">,</span> <span class="n">Segoe</span> <span class="n">UI</span> <span class="n">Symbol</span><span class="p">,</span> <span class="n">Android</span> <span class="n">Emoji</span><span class="p">,</span> <span class="n">EmojiSymbols</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
+                            
+                        
+                    
+                
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/emoji/" term="emoji" label="emoji" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
