@@ -3,136 +3,136 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://example.com/categories/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/poetry/</loc>
+    <loc>https://example.com/poetry/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/poetry/</loc>
+    <loc>https://example.com/categories/poetry/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/poetry/</loc>
+    <loc>https://example.com/tags/poetry/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/poetry/2019-10-26-try/</loc>
+    <loc>https://example.com/poetry/2019-10-26-try/</loc>
     <lastmod>2019-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/katex/</loc>
+    <loc>https://example.com/tags/katex/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://example.com/posts/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/syntax/</loc>
+    <loc>https://example.com/categories/syntax/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/test-markdown/</loc>
+    <loc>https://example.com/posts/test-markdown/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
+    <loc>https://example.com/tags/themes/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/themes/</loc>
+    <loc>https://example.com/categories/themes/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/css/</loc>
+    <loc>https://example.com/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/html/</loc>
+    <loc>https://example.com/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/markdown/</loc>
+    <loc>https://example.com/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/markdown-syntax/</loc>
+    <loc>https://example.com/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>https://example.com/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/series/themes-guide/</loc>
+    <loc>https://example.com/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/placeholder-text/</loc>
+    <loc>https://example.com/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/text/</loc>
+    <loc>https://example.com/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/math/</loc>
+    <loc>https://example.com/categories/math/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/math-typesetting/</loc>
+    <loc>https://example.com/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/emoji/</loc>
+    <loc>https://example.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/emoji-support/</loc>
+    <loc>https://example.com/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://example.com/about/</loc>
   </url>
   
   <url>
-    <loc>/archives/</loc>
+    <loc>https://example.com/archives/</loc>
   </url>
   
 </urlset>
