@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Blog Haver</title>
-        <link>https://example.com/</link>
+        <link>/</link>
         <description>MemE is a powerful and highly customizable GoHugo blog theme.</description>
         <generator>Hugo 0.59.0 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sat, 26 Oct 2019 23:19:35 -0400</lastBuildDate>
+        <lastBuildDate>Sat, 26 Oct 2019 23:35:25 -0400</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="/rss.xml" />
         
         
             <item>
                 <title>Test Page Markdown</title>
-                <link>https://example.com/posts/test-markdown/</link>
-                <guid isPermaLink="true">https://example.com/posts/test-markdown/</guid>
+                <link>/posts/test-markdown/</link>
+                <guid isPermaLink="true">/posts/test-markdown/</guid>
                 <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
                 
                 <copyright>[Some rights reserved.](https://github.com/user501254/minimo/blob/master/LICENSE)</copyright>
@@ -1491,11 +1491,11 @@ $$</p>
                         
                             
                                 
-                                    <category domain="https://example.com/categories/themes/">themes</category>
+                                    <category domain="/categories/themes/">themes</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/categories/syntax/">syntax</category>
+                                    <category domain="/categories/syntax/">syntax</category>
                                 
                             
                         
@@ -1505,11 +1505,11 @@ $$</p>
                         
                             
                                 
-                                    <category domain="https://example.com/tags/themes/">themes</category>
+                                    <category domain="/tags/themes/">themes</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/katex/">katex</category>
+                                    <category domain="/tags/katex/">katex</category>
                                 
                             
                         
@@ -1519,8 +1519,8 @@ $$</p>
         
             <item>
                 <title>Markdown Syntax Guide</title>
-                <link>https://example.com/posts/markdown-syntax/</link>
-                <guid isPermaLink="true">https://example.com/posts/markdown-syntax/</guid>
+                <link>/posts/markdown-syntax/</link>
+                <guid isPermaLink="true">/posts/markdown-syntax/</guid>
                 <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
                 
                 <copyright>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</copyright>
@@ -1752,19 +1752,11 @@ $$</p>
                         
                             
                                 
-                                    <category domain="https://example.com/categories/themes/">themes</category>
+                                    <category domain="/categories/themes/">themes</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/categories/syntax/">syntax</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                    <category domain="https://example.com/series/themes-guide/">themes guide</category>
+                                    <category domain="/categories/syntax/">syntax</category>
                                 
                             
                         
@@ -1772,19 +1764,27 @@ $$</p>
                         
                             
                                 
-                                    <category domain="https://example.com/tags/markdown/">markdown</category>
+                                    <category domain="/series/themes-guide/">themes guide</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                    <category domain="/tags/markdown/">markdown</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/css/">css</category>
+                                    <category domain="/tags/css/">css</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/html/">html</category>
+                                    <category domain="/tags/html/">html</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/themes/">themes</category>
+                                    <category domain="/tags/themes/">themes</category>
                                 
                             
                         
@@ -1794,8 +1794,8 @@ $$</p>
         
             <item>
                 <title>Placeholder Text</title>
-                <link>https://example.com/posts/placeholder-text/</link>
-                <guid isPermaLink="true">https://example.com/posts/placeholder-text/</guid>
+                <link>/posts/placeholder-text/</link>
+                <guid isPermaLink="true">/posts/placeholder-text/</guid>
                 <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
                 
                 <copyright>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</copyright>
@@ -1860,11 +1860,11 @@ Propoetides <strong>parte</strong>.</p>]]></description>
                         
                             
                                 
-                                    <category domain="https://example.com/tags/markdown/">markdown</category>
+                                    <category domain="/tags/markdown/">markdown</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/text/">text</category>
+                                    <category domain="/tags/text/">text</category>
                                 
                             
                         
@@ -1874,8 +1874,8 @@ Propoetides <strong>parte</strong>.</p>]]></description>
         
             <item>
                 <title>Math Typesetting</title>
-                <link>https://example.com/posts/math-typesetting/</link>
-                <guid isPermaLink="true">https://example.com/posts/math-typesetting/</guid>
+                <link>/posts/math-typesetting/</link>
+                <guid isPermaLink="true">/posts/math-typesetting/</guid>
                 <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
                 
                 <copyright>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</copyright>
@@ -1927,7 +1927,7 @@ $$</p>]]></description>
                         
                             
                                 
-                                    <category domain="https://example.com/categories/math/">math</category>
+                                    <category domain="/categories/math/">math</category>
                                 
                             
                         
@@ -1937,11 +1937,11 @@ $$</p>]]></description>
                         
                             
                                 
-                                    <category domain="https://example.com/tags/themes/">themes</category>
+                                    <category domain="/tags/themes/">themes</category>
                                 
                             
                                 
-                                    <category domain="https://example.com/tags/katex/">katex</category>
+                                    <category domain="/tags/katex/">katex</category>
                                 
                             
                         
@@ -1951,8 +1951,8 @@ $$</p>]]></description>
         
             <item>
                 <title>Emoji Support</title>
-                <link>https://example.com/posts/emoji-support/</link>
-                <guid isPermaLink="true">https://example.com/posts/emoji-support/</guid>
+                <link>/posts/emoji-support/</link>
+                <guid isPermaLink="true">/posts/emoji-support/</guid>
                 <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
                 
                 <copyright>[Some rights reserved.](https://github.com/gohugoio/hugoBasicExample/blob/master/LICENSE)</copyright>
@@ -1993,7 +1993,7 @@ $$</p>]]></description>
                         
                             
                                 
-                                    <category domain="https://example.com/categories/themes/">themes</category>
+                                    <category domain="/categories/themes/">themes</category>
                                 
                             
                         
@@ -2003,7 +2003,7 @@ $$</p>]]></description>
                         
                             
                                 
-                                    <category domain="https://example.com/tags/emoji/">emoji</category>
+                                    <category domain="/tags/emoji/">emoji</category>
                                 
                             
                         

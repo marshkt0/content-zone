@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
     <title type="text">Blog Haver</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo blog theme.</subtitle>
-    <updated>2019-10-26T23:19:35-04:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml" />
+    <updated>2019-10-26T23:35:25-04:00</updated>
+    <id>/</id>
+    <link rel="alternate" type="text/html" href="/" />
+    <link rel="self" type="application/atom+xml" href="/atom.xml" />
     <author>
             <name>Kasey</name>
-            <uri>https://example.com/</uri>
+            <uri>/</uri>
             
                 <email>kmarshall928@gmail.com</email>
             </author>
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.59.0">Hugo</generator>
         <entry>
             <title type="text">Test Page Markdown</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/test-markdown/" />
-            <id>https://example.com/posts/test-markdown/</id>
+            <link rel="alternate" type="text/html" href="/posts/test-markdown/" />
+            <id>/posts/test-markdown/</id>
             <updated>2019-08-22T00:00:00+00:00</updated>
             <published>2019-08-22T00:00:00+00:00</published>
             <author>
@@ -1483,11 +1483,11 @@ $$</p>
                     
                         
                             
-                                <category scheme="https://example.com/categories/themes/" term="themes" label="themes" />
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
                             
                         
                             
-                                <category scheme="https://example.com/categories/syntax/" term="syntax" label="syntax" />
+                                <category scheme="/categories/syntax/" term="syntax" label="syntax" />
                             
                         
                     
@@ -1497,11 +1497,11 @@ $$</p>
                     
                         
                             
-                                <category scheme="https://example.com/tags/themes/" term="themes" label="themes" />
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/katex/" term="katex" label="katex" />
+                                <category scheme="/tags/katex/" term="katex" label="katex" />
                             
                         
                     
@@ -1511,8 +1511,8 @@ $$</p>
     
         <entry>
             <title type="text">Markdown Syntax Guide</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/markdown-syntax/" />
-            <id>https://example.com/posts/markdown-syntax/</id>
+            <link rel="alternate" type="text/html" href="/posts/markdown-syntax/" />
+            <id>/posts/markdown-syntax/</id>
             <updated>2019-03-11T00:00:00+00:00</updated>
             <published>2019-03-11T00:00:00+00:00</published>
             <author>
@@ -1748,19 +1748,11 @@ $$</p>
                     
                         
                             
-                                <category scheme="https://example.com/categories/themes/" term="themes" label="themes" />
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
                             
                         
                             
-                                <category scheme="https://example.com/categories/syntax/" term="syntax" label="syntax" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                                <category scheme="https://example.com/series/themes-guide/" term="themes guide" label="themes guide" />
+                                <category scheme="/categories/syntax/" term="syntax" label="syntax" />
                             
                         
                     
@@ -1768,19 +1760,27 @@ $$</p>
                     
                         
                             
-                                <category scheme="https://example.com/tags/markdown/" term="markdown" label="markdown" />
+                                <category scheme="/series/themes-guide/" term="themes guide" label="themes guide" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                                <category scheme="/tags/markdown/" term="markdown" label="markdown" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/css/" term="css" label="css" />
+                                <category scheme="/tags/css/" term="css" label="css" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/html/" term="html" label="html" />
+                                <category scheme="/tags/html/" term="html" label="html" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/themes/" term="themes" label="themes" />
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
                             
                         
                     
@@ -1790,8 +1790,8 @@ $$</p>
     
         <entry>
             <title type="text">Placeholder Text</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/placeholder-text/" />
-            <id>https://example.com/posts/placeholder-text/</id>
+            <link rel="alternate" type="text/html" href="/posts/placeholder-text/" />
+            <id>/posts/placeholder-text/</id>
             <updated>2019-03-09T00:00:00+00:00</updated>
             <published>2019-03-09T00:00:00+00:00</published>
             <author>
@@ -1860,11 +1860,11 @@ Propoetides <strong>parte</strong>.</p>]]></content>
                     
                         
                             
-                                <category scheme="https://example.com/tags/markdown/" term="markdown" label="markdown" />
+                                <category scheme="/tags/markdown/" term="markdown" label="markdown" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/text/" term="text" label="text" />
+                                <category scheme="/tags/text/" term="text" label="text" />
                             
                         
                     
@@ -1874,8 +1874,8 @@ Propoetides <strong>parte</strong>.</p>]]></content>
     
         <entry>
             <title type="text">Math Typesetting</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/math-typesetting/" />
-            <id>https://example.com/posts/math-typesetting/</id>
+            <link rel="alternate" type="text/html" href="/posts/math-typesetting/" />
+            <id>/posts/math-typesetting/</id>
             <updated>2019-03-08T00:00:00+00:00</updated>
             <published>2019-03-08T00:00:00+00:00</published>
             <author>
@@ -1931,7 +1931,7 @@ $$</p>]]></content>
                     
                         
                             
-                                <category scheme="https://example.com/categories/math/" term="math" label="math" />
+                                <category scheme="/categories/math/" term="math" label="math" />
                             
                         
                     
@@ -1941,11 +1941,11 @@ $$</p>]]></content>
                     
                         
                             
-                                <category scheme="https://example.com/tags/themes/" term="themes" label="themes" />
+                                <category scheme="/tags/themes/" term="themes" label="themes" />
                             
                         
                             
-                                <category scheme="https://example.com/tags/katex/" term="katex" label="katex" />
+                                <category scheme="/tags/katex/" term="katex" label="katex" />
                             
                         
                     
@@ -1955,8 +1955,8 @@ $$</p>]]></content>
     
         <entry>
             <title type="text">Emoji Support</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/emoji-support/" />
-            <id>https://example.com/posts/emoji-support/</id>
+            <link rel="alternate" type="text/html" href="/posts/emoji-support/" />
+            <id>/posts/emoji-support/</id>
             <updated>2019-03-05T00:00:00+00:00</updated>
             <published>2019-03-05T00:00:00+00:00</published>
             <author>
@@ -2001,7 +2001,7 @@ $$</p>]]></content>
                     
                         
                             
-                                <category scheme="https://example.com/categories/themes/" term="themes" label="themes" />
+                                <category scheme="/categories/themes/" term="themes" label="themes" />
                             
                         
                     
@@ -2011,7 +2011,7 @@ $$</p>]]></content>
                     
                         
                             
-                                <category scheme="https://example.com/tags/emoji/" term="emoji" label="emoji" />
+                                <category scheme="/tags/emoji/" term="emoji" label="emoji" />
                             
                         
                     

@@ -6,4 +6,4 @@ date: ""
 description: Welcome to my dark twisted mind
 ---
 
-yes, it's me
+I was a girl who learned to code and all I got was this blog.
